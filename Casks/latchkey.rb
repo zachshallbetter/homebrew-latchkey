@@ -7,7 +7,7 @@ cask "latchkey" do
   desc "Secrets for your Mac and your coding agents"
   homepage "https://latchkey.snackstud.io/"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Latchkey.app"
   binary "#{appdir}/Latchkey.app/Contents/Helpers/latchkey"
