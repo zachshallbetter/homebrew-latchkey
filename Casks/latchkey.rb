@@ -1,6 +1,6 @@
 cask "latchkey" do
-  version "0.2.1"
-  sha256 "3ba4b04482a07b3b890590ab5900997d8298cd19d9e2caf73e0efc6affa658f2"
+  version "0.3.0"
+  sha256 "b268905738b1b8004e241ea2adb3babb0255e46bbdd61b0c287e86b5b24ab84b"
 
   url "https://github.com/zachshallbetter/latchkey/releases/download/v#{version}/Latchkey-#{version}.dmg"
   name "Latchkey"
