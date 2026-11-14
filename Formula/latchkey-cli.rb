@@ -1,8 +1,7 @@
 class LatchkeyCli < Formula
-  desc "Command-line tool for the Latchkey app: run commands with secrets from your keychain"
+  desc "Run commands with secrets from the Latchkey app and your keychain"
   homepage "https://latchkey.snackstud.io/"
   url "https://github.com/zachshallbetter/latchkey/releases/download/v0.3.1/latchkey-cli-0.3.1.zip"
-  version "0.3.1"
   sha256 "bf78f2f300341e1dea6a67e5bfda39ac61513c010f0c5e51f83b51b8dbaf6247"
 
   depends_on :macos
